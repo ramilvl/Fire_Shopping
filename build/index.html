@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="py-4 shadow-xl bg-purple-50 lg:bg-white">
+        <div class="container flex items-center justify-between">
+            <a href="">
+                <img src="../img/fire.png" alt="" class="h-16"/>
+                <span class="text-xl font-bold text-red-800">Fire Shopping</span>
+            </a>
+
+            <div class="w-full xl:max-w-xl lg:max-w-lg lg:flex relative hidden">
+                <span class="absolute left-4 top-3 text-lg text-gray-700">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+                <input type="text" class="w-full pl-12 border border-r-0 border-purple-500 py-3 px-3 rounded-xl shadow-sm focus:ring-purple-700" placeholder="Search...">
+                <button type="submit" class="bg-purple-500 text-white border border-purple-500 px-8 font-medium rounded-xl hover:bg-transparent hover:text-purple-500 transition">Search</button>
+            </div>
+
+            <div class="space-x-4 flex items-center">
+                <a href="#" class="block text-center text-gray-700 hover:text-purple-700 transition relative ">
+                    <span class="absolute -right-2 -top-1 w-5 h-5 rounded-lg flex items-center justify-center bg-purple-600 text-white text-xs">2</span>
+                    <div class="text-2xl">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                </a>
+
+                <a href="#" class="block text-center text-gray-700 hover:text-purple-700 transition relative ">
+                    <span class="absolute -right-2 -top-1 w-5 h-5 rounded-lg flex items-center justify-center bg-purple-600 text-white text-xs">3</span>
+                    <div class="text-2xl">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </a>
+
+                <a href="#" class="block text-center text-gray-700 hover:text-purple-700 transition relative ">
+                    <div class="text-2xl">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </header>
+
+    <nav class="bg-red-700 lg:block hidden">
+        <div class="container">
+            <div class="flex">
+                <div class="px-8 py-4 bg-red-700 flex items-center cursor-pointer group relative">
+                    <span class="text-white">
+                        <i class="fa-solid fa-bars"></i>
+                    </span>
+                    <span class="ml-2 text-white">All Categories</span>
+                </div>
+
+                <div class="flex items-center flex-grow pl-16 justify-between">
+                    <div class="flex items-center space-x-7 text-base">
+                        <a class="text-white font-semibold hover:text-black transition" href="./index.html"><i class="fa-solid fa-house"></i> Home</a>
+                        <a class="text-white font-semibold hover:text-black transition" href="./shop.html"><i class="fa-solid fa-bag-shopping"></i> Shop</a>
+                        <a class="text-white font-semibold hover:text-black transition" href="#"><i class="fa-solid fa-address-card"></i> About</a>
+                        <a class="text-white font-semibold hover:text-black transition" href="#"><i class="fa-solid fa-phone"></i> Contact</a>
+                    </div>
+                    <div class="space-x-7">
+                        <a class=" text-white font-semibold hover:text-black transition" href="./login.html"><i class="fa-solid fa-user"></i> Log in</a>
+                        <a class=" text-white font-semibold hover:text-black transition" href="#"><i class="fa-solid fa-house"></i> Register</a>
+                    </div>
+                
+                </div>
+            </div>
+
+        </div>
+    </nav>
+</body>
+</html>
