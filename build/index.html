@@ -55,6 +55,40 @@
                         <i class="fa-solid fa-bars"></i>
                     </span>
                     <span class="ml-2 text-white">All Categories</span>
+                    <div class="absolute left-0 top-full w-full bg-white shadow-xl py-3 opacity-0 invisible group-hover:opacity-100
+                     group-hover:visible transition duration-300 z-50 divide-y divide-gray-500 divide-dashed">
+
+                     <a class="px-6 py-3 flex items-center hover:bg-gray-200 transition" href="#">
+                        <i class="fa-solid fa-shoe-prints"></i>
+                        <span class="ml-6 text-gray-500 text-sm font-semibold">Shoes</span>
+                     </a>
+
+                     <a class="px-6 py-3 flex items-center hover:bg-gray-200 transition" href="#">
+                        <i class="fa-solid fa-clock"></i>
+                        <span class="ml-6 text-gray-500 text-sm font-semibold">Watch</span>
+                     </a>
+
+                     <a class="px-6 py-3 flex items-center hover:bg-gray-200 transition" href="#">
+                        <i class="fa-solid fa-person-dress"></i>
+                        <span class="ml-6 text-gray-500 text-sm font-semibold">Dress</span>
+                     </a>
+
+                     <a class="px-6 py-3 flex items-center hover:bg-gray-200 transition" href="#">
+                        <i class="fa-solid fa-mobile-button"></i>
+                        <span class="ml-6 text-gray-500 text-sm font-semibold">Mobile Phone</span>
+                     </a>
+
+                     <a class="px-6 py-3 flex items-center hover:bg-gray-200 transition" href="#">
+                        <i class="fa-solid fa-computer"></i>
+                        <span class="ml-6 text-gray-500 text-sm font-semibold">Computer</span>
+                     </a>
+
+                     <a class="px-6 py-3 flex items-center hover:bg-gray-200 transition" href="#">
+                        <i class="fa-solid fa-bicycle"></i>
+                        <span class="ml-6 text-gray-500 text-sm font-semibold">Sport</span>
+                     </a>
+
+                    </div>
                 </div>
 
                 <div class="flex items-center flex-grow pl-16 justify-between">
@@ -74,5 +108,175 @@
 
         </div>
     </nav>
+
+    <div class="slider">
+        <div class="slide w-full bg-cover bg-center" style="background-image: url('../img/banner1.png');">
+            <div class="container pt-20 pb-48">
+                <h1 class="text-4xl xl:text-6xl md:text-5xl text-gray-900 font-semibold mb-4">Best Collection</h1>
+                <p class="text-base text-gray-700 leading-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, ullam possimus consectetur mollitia excepturi ab.</p>
+                <div class="mt-12">
+                    <a class="bg-red-700 border-red-600 text-white px-8 py-3
+                     font-medium rounded-xl uppercase hover:bg-red-950 transition" href="shop.html">Shop Now</a>
+                </div>
+            </div>
+        
+        </div>
+        
+        <div class="slide w-full bg-cover bg-center" style="background-image: url('../img/banner2.png');">
+            <div class="container pt-20 pb-48">
+                <h1 class="text-4xl xl:text-6xl md:text-5xl text-gray-900 font-semibold mb-4">True Collection</h1>
+                <p class="text-base text-gray-700 leading-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, ullam possimus consectetur mollitia excepturi ab.</p>
+                <div class="mt-12">
+                    <a class="bg-red-700 border-red-600 text-white px-8 py-3
+                     font-medium rounded-xl uppercase hover:bg-red-950 transition" href="shop.html">Shop Now</a>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="justify-center mx-auto grid md:grid-cols-3 lg:w-10/12 lg:gap-6 mt-3 ">
+
+            <div class="border border-red-700 rounded-xl px-8 flex justify-center
+             items-center transition lg:px-3 lg:py-6 gap-5 mb-2 ml-1 ">
+
+                <i class="fa-solid fa-truck fa-2xl"></i>
+
+                <div class="px-3 py-2 space-y-1">
+                <h4 class="font-medium capitalize text-lg" >Free Delivery</h4>
+                <p class="text-gray-500 text-xs lg:text-sm">Order over $50</p>
+            </div>
+            </div>
+
+            <div class="border border-red-700 rounded-xl px-8 flex justify-center
+             items-center transition lg:px-3 lg:py-6 gap-5 mb-2 ml-1 ">
+
+                <i class="fa-regular fa-envelope fa-2xl"></i>
+                <div class="px-3 py-2 space-y-1">
+                <h4 class="font-medium capitalize text-lg" >7/24 Support</h4>
+                <p class="text-gray-500 text-xs lg:text-sm">Customer Support</p>
+            </div>
+            </div>
+
+            <div class="border border-red-700 rounded-xl px-8 flex justify-center
+             items-center transition lg:px-3 lg:py-6 gap-5 mb-2 ml-1">
+
+             <i class="fa-solid fa-money-bill fa-2xl"></i>
+
+                <div class="px-3 py-2 space-y-1">
+                <h4 class="font-medium capitalize text-lg" >Money Returns</h4>
+                <p class="text-gray-500 text-xs lg:text-sm">7 Days Money Returns</p>
+            </div>
+            </div>
+
+
+        </div>
+       </div>
+
+
+        <!------Categorys Start-->
+
+        <div class="container pb-16 pt-8">
+            <h2 class="text-2xl md:text-3xl font-medium uppercase font-poppins mb-6 text-gray-800" >Shop by Category</h2>
+
+            <div class="grid lg:grid-cols-3 sm:grid-cols-2 gap-3">
+
+                 <!------Single Categorys Start-->
+                <div class="overflow-hidden relative group rounded-xl">
+                    <img src="../img/c1.jpg" class="w-full h-auto"/>
+                    <a href="#" class="absolute inset-0 flex items-center justify-center text-xl
+                     text-white font-roboto font-medium bg-black bg-opacity-60 hover:bg-opacity-40 transition">Shoes</a>
+
+
+                </div>
+                 <!------Single Categorys END-->
+
+                  <!------Single Categorys Start-->
+                <div class="overflow-hidden relative group rounded-xl">
+                    <img src="../img/c2.png" class="w-full h-auto"/>
+                    <a href="#" class="absolute inset-0 flex items-center justify-center text-xl
+                     text-white font-roboto font-medium bg-black bg-opacity-60 hover:bg-opacity-40 transition">Dress</a>
+
+
+                </div>
+                 <!------Single Categorys END-->
+
+
+                  <!------Single Categorys Start-->
+                <div class="overflow-hidden relative group rounded-xl">
+                    <img src="../img/c3.png" class="w-full"/>
+                    <a href="#" class="absolute inset-0 flex items-center justify-center text-xl
+                     text-white font-roboto font-medium bg-black bg-opacity-60 hover:bg-opacity-40 transition">Watch</a>
+
+
+                </div>
+                 <!------Single Categorys END-->
+
+
+                  <!------Single Categorys Start-->
+                <div class="overflow-hidden relative group rounded-xl">
+                    <img src="../img/c4.png" class="w-full"/>
+                    <a href="#" class="absolute inset-0 flex items-center justify-center text-xl
+                     text-white font-roboto font-medium bg-black bg-opacity-60 hover:bg-opacity-40 transition">Computer</a>
+
+
+                </div>
+                 <!------Single Categorys END-->
+
+                  <!------Single Categorys Start-->
+                <div class="overflow-hidden relative group rounded-xl">
+                    <img src="../img/c5.png" class="w-full"/>
+                    <a href="#" class="absolute inset-0 flex items-center justify-center text-xl
+                     text-white font-roboto font-medium bg-black bg-opacity-60 hover:bg-opacity-40 transition">Mobile Phone</a>
+
+
+                </div>
+                 <!------Single Categorys END-->
+
+                  <!------Single Categorys Start-->
+                <div class="overflow-hidden relative group rounded-xl">
+                    <img src="../img/c6.png" class="w-full"/>
+                    <a href="#" class="absolute inset-0 flex items-center justify-center text-xl
+                     text-white font-roboto font-medium bg-black bg-opacity-60 hover:bg-opacity-40 transition">Sport</a>
+
+
+                </div>
+                 <!------Single Categorys END-->
+
+            </div>
+
+          </div>
+
+
+
+
+          <!------Categorys End-->
+
+
+
+
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+          <script>
+            $(document).ready(function () {
+              var slides = $(".slide");
+              var currentSlide = 0;
+
+              function showSlide(index) {
+                slides.hide();
+                slides.eq(index).show();
+              }
+
+              function nextSlide() {
+                currentSlide = (currentSlide + 1) % slides.length;
+                showSlide(currentSlide);
+              }
+
+              showSlide(currentSlide);
+
+              setInterval(nextSlide, 5000); 
+            });
+        </script>
 </body>
 </html>
